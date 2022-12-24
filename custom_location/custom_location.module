@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains the hook functions used by the Custom Location module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function custom_location_theme() {
+  return [
+    'location_block' => [
+      'variables' => [
+        'country' => '',
+        'city' => '',
+        'time' => '',
+      ],
+    ],
+  ];
+}

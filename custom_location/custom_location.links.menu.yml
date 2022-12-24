@@ -1,0 +1,7 @@
+# Location settings configuration form
+custom_location.location_settings:
+  title: 'Custom Location Settings'
+  route_name: custom_location.set_location_settings
+  description: 'Set custom location and get time according to the settings'
+  parent: system.admin_config_system
+  weight: 99

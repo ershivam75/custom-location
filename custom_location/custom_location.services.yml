@@ -1,0 +1,4 @@
+services:
+  Drupal\custom_location\Service\CurrentTime:
+    class: Drupal\custom_location\Service\CurrentTime
+    arguments: ['@config.factory']

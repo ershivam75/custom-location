@@ -1,0 +1,10 @@
+custom_location.set_location_settings:
+  path: '/admin/config/location-settings'
+  defaults:
+    _form: '\Drupal\custom_location\Form\LocationSettingsConfigForm'
+    _title: 'Location Settings'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    no_cache: TRUE
+    _admin_route: TRUE
